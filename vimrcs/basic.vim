@@ -45,8 +45,8 @@ set autoread
 let mapleader = ","
 
 " Fast saving
-nmap <C-s> :w!<cr>
-inoremap <C-s> <esc>:w!<cr>
+nmap <C-w> :w!<cr>
+inoremap <C-w> <esc>:w!<cr>
 
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
@@ -56,8 +56,13 @@ command S w !sudo tee % > /dev/null
 set number
 
 " Easy to go normal mode
-"inoremap kj <esc>
-"cnoremap kj <esc>  
+inoremap kj <esc>
+cnoremap kj <esc>  
+
+" Easy to leave vim
+nnoremap qa :qa!<cr>
+nnoremap wa :wa<cr>
+nnoremap xa :xa<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -218,10 +223,10 @@ vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 map <silent> <leader><cr> :noh<cr>
 
 " Smart way to move between windows
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
+noremap <C-j> <C-W>j
+noremap <C-k> <C-W>k
+noremap <C-h> <C-W>h
+noremap <C-l> <C-W>l
 
 " Close the current buffer
 map <leader>bd :Bclose<cr>:tabclose<cr>gT
