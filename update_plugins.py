@@ -61,6 +61,7 @@ vim-easymotion https://github.com/easymotion/vim-easymotion
 incsearch.vim https://github.com/haya14busa/incsearch.vim
 incsearch-easymotion.vim https://github.com/haya14busa/incsearch-easymotion.vim
 tagbar https://github.com/majutsushi/tagbar
+neocomplete.vim https://github.com/Shougo/neocomplete.vim
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
