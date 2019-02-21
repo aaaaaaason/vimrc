@@ -57,10 +57,10 @@ vim-abolish https://github.com/tpope/tpope-vim-abolish
 mru.vim https://github.com/vim-scripts/mru.vim
 vim-markdown https://github.com/plasticboy/vim-markdown
 comfortable-motion.vim https://github.com/yuttie/comfortable-motion.vim
-easy-motion https://github.com/easymotion/vim-easymotion.git
-incsearch https://github.com/haya14busa/incsearch.vim.git
-incsearch-easymotion https://github.com/haya14busa/incsearch-easymotion.vim.git
-tagbar https://github.com/majutsushi/tagbar.git
+vim-easymotion https://github.com/easymotion/vim-easymotion
+incsearch.vim https://github.com/haya14busa/incsearch.vim
+incsearch-easymotion.vim https://github.com/haya14busa/incsearch-easymotion.vim
+tagbar https://github.com/majutsushi/tagbar
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'

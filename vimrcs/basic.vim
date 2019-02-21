@@ -60,9 +60,10 @@ inoremap kj <esc>
 cnoremap kj <esc>  
 
 " Easy to leave vim
-nnoremap qa :qa!<cr>
-nnoremap wa :wa<cr>
-nnoremap xa :xa<cr>
+"Quit all, discard any changes
+nnoremap qa :qa!<cr> 
+nnoremap qw :xa<cr>
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
