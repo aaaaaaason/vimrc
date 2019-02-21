@@ -79,6 +79,7 @@ set grepprg=/bin/grep\ -nH
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " autocmd VimEnter * NERDTree
 " autocmd VimEnter * wincmd p
+let g:NERDTreeNodeDelimiter = "\u00a0"
 let g:NERDTreeWinPos = "right"
 let NERDTreeMapHelp='<f1>'
 let NERDTreeShowHidden=0
