@@ -44,10 +44,11 @@ map <leader>m :MRU<CR>
 " => CTRL-P
 """"""""""""""""""""""""""""""
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_show_hidden = 1
 
 let g:ctrlp_map = '<c-p>'
 "map <leader>j :CtrlP<cr>
-map <c-b> :CtrlPBuffer<cr>
+"map <c-b> :CtrlPBuffer<cr>
 
 let g:ctrlp_max_height = 20
 let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
@@ -82,7 +83,7 @@ set grepprg=/bin/grep\ -nH
 let g:NERDTreeNodeDelimiter = "\u00a0"
 let g:NERDTreeWinPos = "left"
 let NERDTreeMapHelp='<f1>'
-let NERDTreeShowHidden=0
+let NERDTreeShowHidden=1
 let NERDTreeIgnore = ['\.pyc$', '__pycache__']
 let g:NERDTreeWinSize=35
 map <leader>nn :NERDTreeToggle<cr>
@@ -222,7 +223,7 @@ nnoremap <leader>z :TagbarToggle<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Disable AutoComplPop.
-let g:acp_enableAtStartup = 1
+let g:acp_enableAtStartup = 0
 " Use neocomplete.
 let g:neocomplete#enable_at_startup = 1
 " Use smartcase.
