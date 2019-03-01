@@ -21,6 +21,10 @@ au FileType python set cindent
 au FileType python set cinkeys-=0#
 au FileType python set indentkeys-=0#
 
+au FileType python nnoremap <silent> gd :call jedi#goto_definitions()<cr>
+au FileType python nnoremap <silent> gd :call jedi#goto_assignments()<cr> 
+au FileType python nnoremap <silent> gk :call jedi#show_documentation()<cr>
+au FileType python nnoremap <silent> gu :call jedi#usages()<cr>
 
 """"""""""""""""""""""""""""""
 " => JavaScript section

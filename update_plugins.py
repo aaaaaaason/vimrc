@@ -55,13 +55,13 @@ lightline.vim https://github.com/itchyny/lightline.vim
 lightline-ale https://github.com/maximbaz/lightline-ale
 vim-abolish https://github.com/tpope/tpope-vim-abolish
 mru.vim https://github.com/vim-scripts/mru.vim
-vim-markdown https://github.com/plasticboy/vim-markdown""" +
-#comfortable-motion.vim https://github.com/yuttie/comfortable-motion.vim
-"""vim-easymotion https://github.com/easymotion/vim-easymotion
+vim-markdown https://github.com/plasticboy/vim-markdown
+vim-easymotion https://github.com/easymotion/vim-easymotion
 incsearch.vim https://github.com/haya14busa/incsearch.vim
 incsearch-easymotion.vim https://github.com/haya14busa/incsearch-easymotion.vim
 tagbar https://github.com/majutsushi/tagbar
 neocomplete.vim https://github.com/Shougo/neocomplete.vim
+jedi-vim https://github.com/davidhalter/jedi-vim
 """.strip()
 
 GITHUB_ZIP = '%s/archive/master.zip'
